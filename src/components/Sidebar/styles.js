@@ -13,7 +13,7 @@ export default makeStyles((theme) => ({
     color: theme.palette.text.primary,
     textDecoration: 'none',
   },
-  genreImage: {
+  genreImages: {
     filter: theme.palette.mode === 'dark' && 'invert(1)',
   },
 }));
