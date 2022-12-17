@@ -10,7 +10,7 @@ const App = () => {
   const classes = useStyles();
 
   return (
-  <div className='classes.root'>
+  <div className={classes.root}>
     <CssBaseline />
     <NavBar />
     <main className={classes.content}>

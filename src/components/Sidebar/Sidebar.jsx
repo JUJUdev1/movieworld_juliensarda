@@ -50,7 +50,7 @@ const Sidebar = ({ setMobileOpen }) => {
         <ListSubheader>Categories</ListSubheader>
         {categories.map(({ label, value }) => (
           <Link key={value} className={classes.links} to='/'>
-            <ListItem onClick={() => {}} button>
+            <ListItem onClick={() => { setMobileOpen(false) }} button>
               {/* <ListItemIcon>
                 <img src={redLogo} className={classes.genreImage} height={30} />
               </ListItemIcon> */}
