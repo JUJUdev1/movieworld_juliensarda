@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
-import ToggleColorModeProvider  from './utils/toggleColorMode';
+import ToggleColorModeProvider  from './utils/ToggleColorMode';
 import App from './components/App';
 import store from './app/store';
 import './index.css';

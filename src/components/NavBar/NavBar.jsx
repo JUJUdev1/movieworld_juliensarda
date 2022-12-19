@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { useTheme } from '@mui/material/styles'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { ColorModeContext } from '../../utils/toggleColorMode'
+import { ColorModeContext } from '../../utils/ToggleColorMode'
 import { setUser, userSelector } from '../../features/auth'
 import { Sidebar,Search } from '..'
 import { fetchToken, createSessionId,moviesApi } from '../../utils'
@@ -73,7 +73,7 @@ const NavBar = () => {
             <Avatar
               style={{width: 30, height: 30}}
               alt="Profile"
-              src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+              src={`https://www.theMovieDB.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar_path}`}
             />
             </Button>
           )}

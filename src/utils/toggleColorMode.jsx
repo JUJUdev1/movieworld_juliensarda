@@ -3,7 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material'
 
 export const ColorModeContext = createContext()
 
-const toggleColorMode = ( {children }) => {
+const ToggleColorMode = ( {children }) => {
   const [mode , setMode] = useState('light')
 
   const toggleColorMode = () => {
@@ -19,4 +19,4 @@ const toggleColorMode = ( {children }) => {
   )
 }
 
-export default toggleColorMode
+export default ToggleColorMode
