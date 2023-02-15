@@ -17,6 +17,8 @@ import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
 import { useGetGenresQuery } from '../../services/TMDB';
 import useStyles from './styles';
 import genreIcons from '../../assets/genres';
+import logoRed from '../../assets/images/logoRed.svg';
+import logoBlue from '../../assets/images/logoBlue.svg';
 
 const categories = [
   { label: 'Popular', value: 'popular' },
@@ -24,10 +26,8 @@ const categories = [
   { label: 'Upcoming', value: 'upcoming' },
 ];
 
-const redLogo =
-  '';
-const blueLogo =
-  '';
+const redLogo = logoRed;
+const blueLogo = logoBlue;
 
 const Sidebar = ({ setMobileOpen }) => {
   const { genreIdOrCategoryName} = useSelector((state) => state.currentGenreOrCategory);
@@ -46,7 +46,7 @@ const Sidebar = ({ setMobileOpen }) => {
       <Link to='/' className={classes.imageLink}>
         <img
           className={classes.image}
-          src={theme.palette.mode === 'light' ? redLogo : blueLogo}
+          src={theme.palette.mode === 'light' ? blueLogo : redLogo} 
           alt='MovieWorld Logo'
         />
       </Link>
