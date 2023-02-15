@@ -1,44 +1,21 @@
 # MovieWorld - JulienSarda
 
-Key Focus Points
-When you join Filmpire, you'll develop the skills, strategies, and techniques that are not taught in many theory-based counterparts, including:
+## Points importants :
 
+- Mise en place de l'environnement d'un projet React et son architecture.
 
-green_tick
-How to set up a project environment and build the project architecture
+- Utilisation de Material UI pour la meilleure expérience utilisateur.
 
+- Comment débloquer, résoudre et prévenir d'éventuels bugs.
 
-green_tick
-How to use Material UI to create stunning, Google-like user experiences
+- Comment optimiser son code pour un meilleur fonctionnement et facilité de lecture.
 
+- Comment gérer le routing pour assurer l'expérience utilisateur.
 
-green_tick
-How to get unstuck, solve errors, and prevent future bugs from occurring
+- Comment créer hooks avec Redux et Redux Toolkit.
 
+- Comment faire un API call.
 
-green_tick
-How to construct asynchronous calls that work independently of other code
+- Comment créer un assistant Vocal avec JavaScript et Alan Ai.
 
-
-green_tick
-How to optimize your code for advanced functionality and clarity
-
-
-green_tick
-How to handle routing to ensure a seamless, native-like user experience
-
-
-green_tick
-How to create standard and custom hooks with Redux and Redux Toolkit
-
-
-green_tick
-How to make calls to any API on the internet
-
-
-green_tick
-How to create a voice-assisted AI with JavaScript using Alan AI
-
-
-green_tick
-How to deploy your project and have a smooth launch
+- Comment déployer son projet.
